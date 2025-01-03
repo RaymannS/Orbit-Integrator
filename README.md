@@ -4,7 +4,10 @@
 ### Last Edited: 1/3/2025
 
 ## About
-This code integrates the position and velocity vectors over a set period using Euler Integration. 
+This code integrates the position and velocity vectors over a set period using Euler Integration. It also finds the classical orbital elements of a given initial position and velocity vector and then uses them to final the final classical orbital elements using Kepler's Equation. These results are then plotted and compared by using each method's specific mechanical energy and specific angular momentum. It is important to note that these are the two elements that are being compared since Kepler's Equation only gives final position and velocity vectors which through Euler Integration will only be reached as dt approaches 0.
+
+The orbit is inetegrated using the Perifocal Coordinate System. The integrator is ran over a default of 5 different timesteps ranging from 0.1 to 300 seconds.
+![Perifocal Orbit](https://github.com/RaymannS/Orbit-Integrator/blob/main/orbit_perifocal.png)
 
 ## How to Use
 Download the [orbit_integrator.m](https://github.com/RaymannS/Orbit-Integrator/blob/main/orbit_integrator.m) file and open it in MATLAB.
