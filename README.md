@@ -7,7 +7,7 @@
 This code integrates the position and velocity vectors over a set period using Euler Integration. 
 
 ## How to Use
-Download the [orbit_integrator.m] file and open it in MATLAB.
+Download the [orbit_integrator.m](https://github.com/RaymannS/Orbit-Integrator/blob/main/orbit_integrator.m) file and open it in MATLAB.
 Change the variables in the _Init Variables_ section at the top, these are the initial position and velocty vectors alongside the integration step sizes and period to integrate over.
 Run the code and wait for the integration to be done (step sizes approaching zero are more precise, but increase computation time).
 
